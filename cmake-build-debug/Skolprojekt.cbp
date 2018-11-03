@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Skolprojekt"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Skolprojekt">
+				<Option output="C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Skolprojekt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Dag Karlsson/Desktop/Skolprojekt/Canbus"/>
+					<Add directory="C:/Users/Dag Karlsson/Desktop/Skolprojekt/CanBusCommon"/>
+					<Add directory="C:/Users/Dag Karlsson/Desktop/Skolprojekt/ProjectLibrary"/>
+					<Add directory="c:\programmering\utils\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\programmering\utils\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\programmering\utils\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\programmering\utils\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\programmering\utils\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\programmering\utils\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\programmering\utils\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 Skolprojekt"/>
+					<CompileFile command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Skolprojekt/fast">
+				<Option output="C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Skolprojekt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Dag Karlsson/Desktop/Skolprojekt/Canbus"/>
+					<Add directory="C:/Users/Dag Karlsson/Desktop/Skolprojekt/CanBusCommon"/>
+					<Add directory="C:/Users/Dag Karlsson/Desktop/Skolprojekt/ProjectLibrary"/>
+					<Add directory="c:\programmering\utils\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\programmering\utils\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\programmering\utils\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\programmering\utils\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\programmering\utils\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\programmering\utils\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\programmering\utils\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 Skolprojekt/fast"/>
+					<CompileFile command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programmering/Utils/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/CanBusCommon/CanMessageHandler.cpp">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/CanBusCommon/CanMessageHandler.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/CanBusCommon/CanUtility.cpp">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/CanBusCommon/CanUtility.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/CanBusCommon/canbus_datamappings_defs.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/CanBusCommon/canbus_defs.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/CanBusCommon/canbus_error_defs.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/CanBusCommon/canbus_global_defs.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/CanBusCommon/canbus_id_defs.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/CanBusCommon/canbus_struct_defs.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/Canbus/Canbus.cpp">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/Canbus/Canbus.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/Canbus/MsgParsing.cpp">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/Canbus/MsgParsing.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/Canbus/VecN2KMsg.cpp">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/Canbus/VecN2KMsg.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/Canbus/mcp2515.cpp">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/Canbus/mcp2515.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/Canbus/mcp2515_defs.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/ProjectLibrary/HttpHandler.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/ProjectLibrary/Light.cpp">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/ProjectLibrary/Light.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/ProjectLibrary/LightMsgHandler.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/ProjectLibrary/MessageHandler.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/ProjectLibrary/RequestParam.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/ProjectLibrary/TempMsgHandler.cpp">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/ProjectLibrary/TempMsgHandler.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/ProjectLibrary/TemperatureSensor.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/ProjectLibrary/Timer.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/ProjectLibrary/arduino_id_defs.h">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/temp_canbuss/temp_canbuss.ino">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/wifi_canbus/wifi_canbus.ino">
+			<Option target="Skolprojekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dag Karlsson/Desktop/Skolprojekt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
