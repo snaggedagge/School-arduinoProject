@@ -2,6 +2,7 @@ package dkarlsso.arduinoproject.connection;
 
 import android.util.Log;
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
 import org.springframework.web.client.RestTemplate;
@@ -9,6 +10,7 @@ import org.springframework.web.client.RestTemplate;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
@@ -104,6 +106,15 @@ public class ArduinoConnector {
     }
 
     private void addArduinoMappings(final List<ArduinoDTO> arduinos) {
+
+        final Iterator<ArduinoDTO> iterator = arduinos.iterator();
+        while(iterator.hasNext()) {
+            final ArduinoDTO arduinoDTO = iterator.next();
+            if(StringUtils.isBlank(arduinoDTO.getName()) || arduinoDTO.getId() < 1) {
+                iterator.remove();
+            }
+        }
+
         for(int i=0;i<arduinos.size();i++) {
             arduinoIdMap.put(i, arduinos.get(i));
         }

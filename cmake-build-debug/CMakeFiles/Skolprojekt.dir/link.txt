@@ -1,3 +1,0 @@
-"D:\Installerade program\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\Skolprojekt.dir/objects.a
-C:\Programmering\Utils\MinGW\bin\ar.exe cr CMakeFiles\Skolprojekt.dir/objects.a @CMakeFiles\Skolprojekt.dir\objects1.rsp
-C:\Programmering\Utils\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Skolprojekt.dir/objects.a -Wl,--no-whole-archive  -o Skolprojekt.exe -Wl,--out-implib,libSkolprojekt.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Skolprojekt.dir\linklibs.rsp

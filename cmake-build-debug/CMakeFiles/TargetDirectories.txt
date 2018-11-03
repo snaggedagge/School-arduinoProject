@@ -1,3 +1,0 @@
-C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/CMakeFiles/Skolprojekt.dir
-C:/Users/Dag Karlsson/Desktop/Skolprojekt/cmake-build-debug/CMakeFiles/edit_cache.dir
